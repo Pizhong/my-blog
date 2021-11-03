@@ -1,7 +1,8 @@
 module.exports = {
   "title": "MyBlog",
   "description": "Record The Daily Development",
-  "dest": "public",
+  // "dest": "public",
+  "base":"/my-blog/",
   "head": [
     [
       "link",
