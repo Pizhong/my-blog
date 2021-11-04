@@ -10,11 +10,11 @@ npm run build
 cd .vuepress/dist
 
 # 如果是发布到自定义域名
-# echo 'www.isunbeam.cn' > CNAME
+echo 'blog.dop.cool' > CNAME
 
-git init
-git add -A
-git commit -m 'deploy'
+git init
+git add -A
+git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:<BranchName>
