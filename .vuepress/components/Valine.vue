@@ -1,14 +1,14 @@
 <template>
     <div class="page p-valine">
         <section class="page-edit">
-            <div>
-                <!-- id 将作为查询条件 -->
+            <!-- <div>
+                id 将作为查询条件
                 <span class="leancloud-visitors"
                       data-flag-title="Your Article Title">
         <em class="post-meta-item-text">阅读量：</em>
         <i class="leancloud-visitors-count"></i>
       </span>
-            </div>
+            </div> -->
             <!-- <h3>
                 <a href="javascript:;"></a>
                 评 论：
@@ -27,7 +27,7 @@
             const Valine = require('valine');
             if (typeof window !== 'undefined') {
                 this.window = window
-                window.AV = require('leancloud-storage')
+                // // window.AV = require('leancloud-storage')
             }
             this.valine = new Valine()
             this.initValine()
