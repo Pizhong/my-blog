@@ -43,7 +43,7 @@
             initValine () {
                 let path = location.origin + location.pathname
                 // vuepress打包后变成的HTML不知为什么吞掉此处的绑定`:id="countId"`
-                document.getElementsByClassName('leancloud-visitors')[0].id = path
+                // document.getElementsByClassName('leancloud-visitors')[0].id = path
                 this.valine.init({
                     el: '#vcomments',
                     appId: '1c6rLC7CBnPfFWTR90knE7gO-gzGzoHsz',// your appId
@@ -69,6 +69,7 @@
 }
 .p-valine {
   padding-right: 0;
-  border-top: 1px solid #d2d0d4
+  padding-top: 0;
+  border-top: 1px solid #d2d0d4;
 }
 </style>
