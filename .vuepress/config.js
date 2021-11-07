@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "MyBlog",
+  "title": "不如蛋斯",
   "description": "Record The Daily Development",
   // "dest": "public",
   "base":"/",

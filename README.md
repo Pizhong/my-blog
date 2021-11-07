@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: Welcome To DoP's Blog
-tagline: The Blog Record The Daily Development.
+heroText: 生活不仅有代码和BUG，还有诗和远方
+tagline: Life is not only code and bugs, but also poetry and distance
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
