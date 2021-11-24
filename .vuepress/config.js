@@ -34,11 +34,11 @@ module.exports = {
       },
       {
         "text": "Docs",
-        "icon": "reco-message",
+        "icon": "reco-document",
         "items": [
           {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
+            "text": "utils",
+            "link": "/docs/utils/"
           }
         ]
       },
@@ -50,17 +50,27 @@ module.exports = {
             "text": "GitHub",
             "link": "https://github.com/Pizhong",
             "icon": "reco-github"
+          },
+          {
+            "text": "CSDN",
+            "link": "https://blog.csdn.net/qq_42109047?spm=1019.2139.3001.5343",
+            "icon": "reco-csdn"
           }
         ]
       }
     ],
+    // 自动形成侧边导航
+    "subSidebar": 'auto',
+    "sidebarDepth": 1,
+    "displayAllHeaders": false,
     "sidebar": {
-      // "/docs/theme-reco/": [
-      //   "",
-      //   "theme",
-      //   "plugin",
-      //   "api"
-      // ]
+      "/docs/utils/": [
+        {
+          title: 'Utils',
+          collapsable: true,
+          children: ['javascript/utilsToolFn']
+        }
+      ]
     },
     "type": "blog",
     "blogConfig": {
@@ -94,7 +104,7 @@ module.exports = {
     "author": "Do P",
     "authorAvatar": "/avatar.jpg",
     "record": "xxxx",
-    "startYear": "2017"
+    "startYear": "2021",
   },
   "markdown": {
     "lineNumbers": true
