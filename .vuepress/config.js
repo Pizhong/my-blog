@@ -39,6 +39,10 @@ module.exports = {
           {
             "text": "utils",
             "link": "/docs/utils/"
+          },
+          {
+            "text":'每日一题',
+            "link": "/docs/a-daily-topic/"
           }
         ]
       },
@@ -69,6 +73,13 @@ module.exports = {
           title: 'Utils',
           collapsable: true,
           children: ['javascript/utilsToolFn']
+        }
+      ],
+      "/docs/a-daily-topic/": [
+        {
+          title:'2021-11',
+          collapsable: true,
+          children: ['202111/20211130']
         }
       ]
     },
