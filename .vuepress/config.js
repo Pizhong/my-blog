@@ -80,6 +80,11 @@ module.exports = {
           title:'2021-11',
           collapsable: true,
           children: ['202111/20211130']
+        },
+        {
+          title:'2021-12',
+          collapsable: true,
+          children: ['202112/20211201']
         }
       ]
     },
