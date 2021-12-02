@@ -1,5 +1,5 @@
 ---
-title: 每日一题
+title: 每日一练
 date: 2021-11-30
 sidebar: true
 isShowComments: true

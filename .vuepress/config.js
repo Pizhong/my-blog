@@ -41,7 +41,7 @@ module.exports = {
             "link": "/docs/utils/"
           },
           {
-            "text":'每日一题',
+            "text":'每日一练',
             "link": "/docs/a-daily-topic/"
           }
         ]
@@ -84,7 +84,7 @@ module.exports = {
         {
           title:'2021-12',
           collapsable: true,
-          children: ['202112/20211201']
+          children: ['202112/20211201','202112/20211202']
         }
       ]
     },
