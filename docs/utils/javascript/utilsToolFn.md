@@ -6,6 +6,7 @@ sidebar: 'auto'
 tags:
  - 工具
 categories:
+ - JavaScript
  - 日常开发
 ---
 
