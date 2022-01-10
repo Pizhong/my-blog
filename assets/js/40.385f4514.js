@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[40],{586:function(t,n,e){"use strict";e.r(n);var s=e(12),l=Object(s.a)({},(function(){var t=this.$createElement,n=this._self._c||t;return n("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[n("p",[this._v("英雄者，胸怀大志，腹有良策，有包藏宇宙之机，吞吐天地之志者也。\n——《三国演义》")])])}),[],!1,null,null,null);n.default=l.exports}}]);
